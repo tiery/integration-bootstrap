@@ -32,7 +32,7 @@ $templateName = 'Bootstrap';
 
 <h2>Definition List</h2>
 <dl>
-    <dt>Definition List Title</dt>
+	<dt>Definition List Title</dt>
 	<dd>This is a definition list division.</dd>
 </dl>
 
