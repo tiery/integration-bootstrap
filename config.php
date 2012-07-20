@@ -1,9 +1,19 @@
 <?php
 
+/*
+ * Edit section
+ */
+ 
 // Roots directory
-define('_WEBROOT_', '');
-if (_WEBROOT_ == '') echo '<script>alert("ERROR PHP : _WEBROOT_ n\'est pas définie dans config.php");</script>';
+define('_WEBROOT_', '/integration-bootstrap/');
 
+// Site Name
+define('_SITENAME_', 'Site name');
+
+/*
+ * Edit section
+ */
+if (_WEBROOT_ == '' || _SITENAME_ == '') echo '<script>alert("Configuration KO!");</script>';
 define('_ROOT_', $_SERVER['DOCUMENT_ROOT'] . _WEBROOT_);
 
 // Theme directory
@@ -16,8 +26,5 @@ define('_MEDIAS_', _WEBROOT_ . 'medias/');
 
 // Third party directory
 define('_THIRD_', _WEBROOT_ . 'third/');
-
-// Site Name
-define('_SITENAME_', '');
 
 ?>

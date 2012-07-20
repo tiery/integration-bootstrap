@@ -1,1 +1,1 @@
-<?php header('Location: templates/001_homepage.php'); ?>
+<?php header('Location: templates/000_boot.php'); ?>
