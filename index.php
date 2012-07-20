@@ -1,0 +1,1 @@
+<?php header('Location: templates/001_homepage.php'); ?>
