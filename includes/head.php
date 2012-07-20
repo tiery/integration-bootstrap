@@ -8,8 +8,8 @@
 
 	<!-- Metas SEO & others -->
 	<title><?=$templateName?> - <?=_SITENAME_?></title>
-	<meta name="title" content="<?=$templateName?> - INSEAD Knowledge">
-	<meta name="description" content="<?=$templateName?> - INSEAD Knowledge">
+	<meta name="title" content="<?=$templateName?> - <?=_SITENAME_?>">
+	<meta name="description" content="<?=$templateName?> - <?=_SITENAME_?>">
 	<meta name="robots" content="index,follow">
 	<link rel="prev" href="">
 	<link rel="next" href="">
