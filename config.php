@@ -21,6 +21,5 @@ define('_THIRD_', _WEBROOT_ . 'third/');
 define('_SITENAME_', '');
 
 // ceci est un test
-// ceci est un test 2
 
 ?>
