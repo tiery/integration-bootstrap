@@ -40,12 +40,11 @@
 	
 	<!-- Media files -->
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-	<link rel="stylesheet" href="<?=_UICSS_?>0_fonts.css">
-	<link rel="stylesheet" href="<?=_UICSS_?>1_reset.css">
-	<link rel="stylesheet" href="<?=_UICSS_?>2_basic.css">
-	<link rel="stylesheet" href="<?=_UICSS_?>3_modules.css">
-	<link rel="stylesheet" href="<?=_UICSS_?>4_medias.css">
-	<link rel="stylesheet" href="<?=_UICSS_?>5_print.css" media="print">
+	<link rel="stylesheet" href="<?=_UICSS_?>0_reset.css">
+	<link rel="stylesheet" href="<?=_UICSS_?>1_basic.css">
+	<link rel="stylesheet" href="<?=_UICSS_?>2_modules.css">
+	<link rel="stylesheet" href="<?=_UICSS_?>3_medias.css">
+	<link rel="stylesheet" href="<?=_UICSS_?>4_print.css" media="print">
 	
 	<!-- Mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
