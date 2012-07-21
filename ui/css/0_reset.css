@@ -533,3 +533,16 @@ table{
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+/*  =============================================================================
+	Helpers
+	========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+.tl{ text-align: left; }
+.tc{ text-align: center; }
+.tr{ text-align: right; }

@@ -68,7 +68,6 @@
 	<link rel="image_src" href="">
 	<link rel="video_src" href="">
 </head>
-
 <body>
 <div class="site">
 	<div class="site-topbar">

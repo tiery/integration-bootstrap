@@ -3,6 +3,7 @@
  *
  * Require Base64
  *
+ * "Area style"
  * <div data-l="area">
  *	<p>Lorem...</p>
  *	<a data-l="target" href="">the real link</a>
@@ -10,6 +11,7 @@
  *
  * OR
  *
+ * "Encoded style"
  * <span data-l="aHR0cDovL3BhbHBpeC5jb20v" data-l-new>A not search robot friendly link</span>
  *
  */
@@ -76,7 +78,8 @@
 			url = '';
 		
 		if (that.type === 'encoded') {
-			url = $.tx.utils.base64.decode(that.$element.attr('data-l'));
+			console.log(that.$element.attr('data-l'));
+			url = Base64.decode(that.$element.attr('data-l'));
 		}
 		else{
 			url = that.$link.attr('href');
