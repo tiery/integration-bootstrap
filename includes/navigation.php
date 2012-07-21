@@ -1,12 +1,10 @@
 <ul id="main-nav" class="main-nav">
-	<li class="home <?php if ($templateName == 'Homepage') echo 'active'; ?>"><a href=""><span>INSEAD Knowledge</span></a></li><!--
-	--><li><a href=""><span>Economics &amp; Politics</span></a></li><!--
-	--><li class="<?php if ($templateName != 'Homepage' && $templateName != 'Homepage Video' && $templateName != 'Category Video') echo 'active'; ?>"><a href=""><span>Leadership &amp; Management</span></a><ul class="sub-nav">
-			<li><a href="/strategy">Strategy</a></li>
-			<li><a href="/observational-behavior">Observational behavior</a></li>
-			<li><a href="/operations-management">Observational management</a></li>
-			<li><a href="/talent-management">Talent management</a></li>
-			<li><a href="/women-business">Women in Business</a></li>
+	<li><a href="<?=_WEBROOT_?>"><span>Item 1 level 1</span></a></li><!--
+	--><li><a href=""><span>Item 2 level 1</span></a></li><!--
+	--><li><a href=""><span>Item 3 level 1</span></a><ul class="sub-nav">
+			<li><a href="">Item 1 level 2</a></li>
+			<li><a href="">Item 2 level 2</a></li>
+			<li><a href="">Item 3 level 2</a></li>
 		</ul>
 	</li>
 </ul>
