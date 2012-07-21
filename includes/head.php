@@ -59,20 +59,17 @@
 	<meta property="fb:admins" content="">
 	<meta property="fb:page_id" content="">
 	<meta property="fb:app_id" content="">
-	<meta property="og:type" content="article">
+	<meta property="og:type" content="">
 	<meta property="og:title" content="">
 	<meta property="og:description" content="">
 	<meta property="og:image" content="">
-	<meta property="og:url"  content=""> 
+	<meta property="og:url" content=""> 
 	<meta property="og:site_name" content="">
 	<link rel="image_src" href="">
-	<?php if ($templateName == 'Video') : ?>
 	<link rel="video_src" href="">
-	<?php endif; ?>
 </head>
 
 <body>
-<input type="checkbox" id="mobile-menu-checkbox">
 <div class="site">
 	<div class="site-topbar">
 		<div class="trunk">

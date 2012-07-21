@@ -84,9 +84,10 @@ textarea{
 
 body{
 	margin: 0;
-	font: normal 12px/1.3 arial, sans-serif;
+	font: normal 14px/1.4 arial, sans-serif;
 	word-wrap: break-word;
 	-webkit-hyphens: auto;
+	color: #222;
 	background-color: #fff;
 }
 
@@ -124,7 +125,7 @@ a:focus{
 	cursor: pointer;
 }
 a, .a{
-	color: #000;
+	color: #222;
 }
 
 

@@ -5,11 +5,9 @@
 
 $(function () {
 
-	// Link area
-	$('[data-braze]').pxBraze();
-
-	// Serve high res photos for capable display
-	$.highResPicture();
+	$('[data-l]').pxL();
+	$.tx.mobilizr();
+	$.tx.retinaizr();
 
 	// Debug & demos
 	$('#templates li').clone().prependTo('#main-nav');
