@@ -5,7 +5,7 @@
  */
  
 // Roots directory
-define('_WEBROOT_', '/integration-bootstrap/');
+define('_WEBROOT_', '/');
 
 // Site Name
 define('_SITENAME_', 'Site name');
