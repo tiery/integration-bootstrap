@@ -5,19 +5,18 @@
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
-	<!-- Encoding first! -->
+	<!-- Encoding -->
 	<meta charset="utf-8">
 
-	<!-- Metas SEO & others -->
+	<!-- SEO -->
 	<title><?=$templateName?> - <?=_SITENAME_?></title>
 	<meta name="title" content="<?=$templateName?> - <?=_SITENAME_?>">
 	<meta name="description" content="<?=$templateName?> - <?=_SITENAME_?>">
 	<meta name="robots" content="index,follow">
 	<link rel="prev" href="">
 	<link rel="next" href="">
-
-	<!-- Icons -->
-	<link rel="shortcut icon" href="<?=_UIIMG_?>favicon.ico">
+	
+	<!-- Script bootstrap -->
 	<script type="text/javascript">
 	(function(ua,h,c) {
 		// no/js snippet
@@ -46,11 +45,17 @@
 	<link rel="stylesheet" href="<?=_UICSS_?>3_medias.css">
 	<link rel="stylesheet" href="<?=_UICSS_?>4_print.css" media="print">
 	
+	<!-- Icons -->
+	<link rel="shortcut icon" href="<?=_UIIMG_?>favicon.ico">
+	
 	<!-- Mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="cleartype" content="on">
 	
-	<!-- Facebook & Open Graph -->
+	<!-- Latest IE rendering engine (or Chrome Frame) -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<!-- Social -->
 	<meta property="fb:admins" content="">
 	<meta property="fb:page_id" content="">
 	<meta property="fb:app_id" content="">
@@ -60,17 +65,14 @@
 	<meta property="og:image" content="">
 	<meta property="og:url"  content=""> 
 	<meta property="og:site_name" content="">
-	<link rel="image_src" href="http://720plan.ovh.net/~inseadpoq/knowledge2/knowledgevideo/preview/237617.jpg">
+	<link rel="image_src" href="">
 	<?php if ($templateName == 'Video') : ?>
-	<link rel="video_src" href="http://www.youtube.com/embed/rVqLCVC4kkE">
+	<link rel="video_src" href="">
 	<?php endif; ?>
-	
-	<!-- Divers -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 </head>
 
 <body>
-<input type="checkbox" id="mobile-menu-checkbox" class="input-styles">
+<input type="checkbox" id="mobile-menu-checkbox">
 <div class="site">
 	<div class="site-topbar">
 		<div class="trunk">
