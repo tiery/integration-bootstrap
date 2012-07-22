@@ -72,18 +72,18 @@
 <div class="site">
 	<div class="site-topbar">
 		<div class="trunk">
-		</div>
+		</div><!-- site-topbar trunk -->
 	</div><!-- site-topbar -->
 	
 	<header class="site-header">
 		<div class="trunk">
-		</div>
+		</div><!-- site-header trunk -->
 	</header><!-- site-header -->
 	
 	<nav class="site-nav" role="navigation">
 		<div class="trunk">
 			<?php include_once(_ROOT_ . 'includes/navigation.php'); ?>
-		</div>
+		</div><!-- site-nav trunk -->
 	</nav><!-- site-nav -->
 	
 	<div class="site-body">
