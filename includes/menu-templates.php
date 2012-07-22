@@ -1,4 +1,5 @@
-<div class="dummy">
+
+<div id="dummy">
 	<dl id="templates">
 		<dt>Templates</dt>
 		<dd>

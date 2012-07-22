@@ -156,7 +156,7 @@ $.tx.utils = {};
  * Mobile 
  */
 $.tx.mobilizr = function() {
-	$('body').prepend('<input type="checkbox" id="mobile-menu-checkbox">');
+	$('body').prepend('<input type="checkbox" id="mobile-menu-checkbox" class="hidden">');
 };
 
 /*
