@@ -6,8 +6,8 @@
 $(function () {
 
 	$('[data-l]').pxL();
-	$.tx.mobilizr();
-	$.tx.retinaizr();
+	PX.mobilizr();
+	PX.retinaizr();
 
 	// Debug & demos
 	$('#templates li').clone().prependTo('#main-nav');

@@ -1,7 +1,7 @@
 /*
  * Base64 en/decoder
  */
-Base64 = {
+var Base64 = {
 
   // private property
   _keyStr : "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=",
@@ -137,33 +137,48 @@ Base64 = {
 
 };
 
-
-(function ($) {
+/*
+ * Toolbox
+ */
+(function (context, $) {
 
 'use strict';
 	
-/*
- * Create toolbox namespace
- */
-$.tx = $.tx || {};
+// Create toolbox namespace
+var PX = window.PX || {};
 
-/*
- * Utils
- */
-$.tx.utils = {};
+// Utils
+PX.utils = {};
 
-/*
- * Mobile 
- */
-$.tx.mobilizr = function() {
-	$('body').prepend('<input type="checkbox" id="mobile-menu-checkbox" class="hidden">');
+// Is Numeric?
+// http://james.padolsey.com/jquery/#v=1.7.2&fn=jQuery.isNumeric
+PX.utils.isNum = function (n) {
+	return !isNaN(parseFloat(n)) && isFinite(n);
 };
 
-/*
- * Serve high resolution picture for "Retina" like display
- */
-$.tx.retinaizr = function() {
-	
+// Mobile 
+PX.mobilizr = function() {
+	$(document.body).prepend('<input type="checkbox" id="mobile-menu-checkbox" class="hidden">');
 };
+
+// Serve high resolution picture for "Retina" like display
+PX.retinaizr = function() {
+	var sAttr = 'data-@2x',
+		$img;
 	
-})(jQuery);
+	if (!context.devicePixelRatio || context.devicePixelRatio < 1.5) {
+		return;
+	}
+	
+	return $('img[' + sAttr + ']').each(function(){
+		$img = $(this),
+		maxWidth = $img.attr('width') + 'px',
+		srcHighRes = $img.attr(sAttr);
+		$this.css('max-width', maxWidth).attr('src', srcHighRes).removeAttr(sAttr);
+    });
+};
+
+// Expose PX to execution context (window in browser)
+context.PX = PX;
+	
+})(this, jQuery);

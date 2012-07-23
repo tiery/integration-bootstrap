@@ -24,7 +24,7 @@
 
 	<!-- site scripts -->
 	<script src="<?=_UIJS_?>libraries/jquery-1.7.1.min.js"></script>
-	<script src="<?=_UIJS_?>libraries/jquery.toolbox.js"></script>
+	<script src="<?=_UIJS_?>libraries/toolbox.js"></script>
 	<script src="<?=_UIJS_?>plugins/jquery.l.js"></script>
 	<script src="<?=_UIJS_?>scripts.js"></script>
 	
