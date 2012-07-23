@@ -1,5 +1,5 @@
 <?php
-$templateName = 'Patterns';
+$name = 'Patterns';
 ?>
 <?php include_once('../config.php'); ?>
 <?php include_once(_ROOT_ . 'includes/head.php'); ?>
