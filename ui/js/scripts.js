@@ -1,17 +1,14 @@
 /*
  * Scripts Initializr
  * Wait for DOM ready
- **/
+ */
 
 $(function () {
-
 	$('[data-l]').pxL();
 	PX.mobilizr();
 	PX.retinaizr();
-
 	// Debug & demos
 	$('#templates li').clone().prependTo('#main-nav');
-
 });
 
 /*
