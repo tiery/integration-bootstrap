@@ -9,9 +9,9 @@
 	<meta charset="utf-8">
 
 	<!-- SEO -->
-	<title><?=$templateName?> - <?=_SITENAME_?></title>
-	<meta name="title" content="<?=$templateName?> - <?=_SITENAME_?>">
-	<meta name="description" content="<?=$templateName?> - <?=_SITENAME_?>">
+	<title><?=$name?> - <?=_SITENAME_?></title>
+	<meta name="title" content="<?=$name?> - <?=_SITENAME_?>">
+	<meta name="description" content="<?=$name?> - <?=_SITENAME_?>">
 	<meta name="robots" content="index,follow">
 	<link rel="prev" href="">
 	<link rel="next" href="">
