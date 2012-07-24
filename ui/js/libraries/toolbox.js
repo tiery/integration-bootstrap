@@ -150,12 +150,6 @@ var PX = window.PX || {};
 // Utils
 PX.utils = {};
 
-// Is Numeric?
-// http://james.padolsey.com/jquery/#v=1.7.2&fn=jQuery.isNumeric
-PX.utils.isNum = function (n) {
-	return !isNaN(parseFloat(n)) && isFinite(n);
-};
-
 // Mobile 
 PX.mobilizr = function() {
 	$(document.body).prepend('<input type="checkbox" id="mobile-menu-checkbox" class="hidden">');
