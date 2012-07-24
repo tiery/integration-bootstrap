@@ -171,9 +171,9 @@ PX.retinaizr = function() {
 	}
 	
 	return $('img[' + sAttr + ']').each(function(){
-		$img = $(this),
-		maxWidth = $img.attr('width') + 'px',
-		srcHighRes = $img.attr(sAttr);
+		var $img = $(this),
+			maxWidth = $img.attr('width') + 'px',
+			srcHighRes = $img.attr(sAttr);
 		$this.css('max-width', maxWidth).attr('src', srcHighRes).removeAttr(sAttr);
     });
 };
