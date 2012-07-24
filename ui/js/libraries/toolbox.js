@@ -174,7 +174,7 @@ PX.retinaizr = function() {
 		var $img = $(this),
 			maxWidth = $img.attr('width') + 'px',
 			srcHighRes = $img.attr(sAttr);
-		$this.css('max-width', maxWidth).attr('src', srcHighRes).removeAttr(sAttr);
+		$img.css('max-width', maxWidth).attr('src', srcHighRes).removeAttr(sAttr);
     });
 };
 
