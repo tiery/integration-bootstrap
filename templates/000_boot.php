@@ -76,7 +76,7 @@ $name = 'Bootstrap';
 			</p>
 			<p>
 				<label for="select_element">Select Element:</label><br>
-				<select name="select_element">
+				<select id="select_element" name="select_element">
 					<optgroup label="Option Group 1">
 						<option value="1">Option 1</option>
 						<option value="2">Option 2</option>
@@ -90,24 +90,24 @@ $name = 'Bootstrap';
 				</select>
 			</p>		
 			<p>
-				<label for="radio_buttons">Radio Buttons:</label><br>
-				<input type="radio" class="radio" name="radio_button" value="radio_1"> Radio 1<br>
-				<input type="radio" class="radio" name="radio_button" value="radio_2"> Radio 2<br>
-				<input type="radio" class="radio" name="radio_button" value="radio_3"> Radio 3<br>
+				<div>Radio Buttons:</div>
+				<input type="radio" class="radio" name="radio_button" value="radio_1" id="radio_1"> <label for="radio_1">Radio 1</label><br>
+				<input type="radio" class="radio" name="radio_button" value="radio_2" id="radio_2"> <label for="radio_2">Radio 2</label><br>
+				<input type="radio" class="radio" name="radio_button" value="radio_3" id="radio_3"> <label for="radio_3">Radio 3</label><br>
 			</p>
 			<p>
-				<label for="checkboxes">Checkboxes:</label><br>
-				<input type="checkbox" class="checkbox" name="checkboxes" value="check_1"> Radio 1<br>
-				<input type="checkbox" class="checkbox" name="checkboxes" value="check_2"> Radio 2<br>
-				<input type="checkbox" class="checkbox" name="checkboxes" value="check_3"> Radio 3<br>
+				<div>Checkboxes:</div>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_1" id="check_1"> <label for="check_1">Radio 1</label><br>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_2" id="check_2"> <label for="check_2">Radio 2</label><br>
+				<input type="checkbox" class="checkbox" name="checkboxes" value="check_3" id="check_3"> <label for="check_3">Radio 3</label><br>
 			</p>
 			<p>
 				<label for="password">Password:</label><br>
-				<input type="password" class="password" name="password">
+				<input type="password" class="password" name="password" id="password">
 			</p>
 			<p>
 				<label for="file">File Input:</label><br>
-				<input type="file" class="file" name="file">
+				<input type="file" class="file" name="file" id="file">
 			</p>
 			<p>
 				<input class="button" type="reset" value="Clear">
