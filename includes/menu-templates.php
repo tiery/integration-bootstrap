@@ -2,7 +2,7 @@
 $mydir = './'; 
 if ($dir = @opendir($mydir)) {
 	while (($file = readdir($dir)) !== false) {
-		if($file != ".." && $file != "." && $file != ".DS_Store" && $file != "000_boot.php") {
+		if($file != ".." && $file != "." && $file != ".DS_Store") {
 			$filelist[] = $file;
 		}
 	}
