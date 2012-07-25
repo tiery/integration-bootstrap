@@ -44,6 +44,7 @@
 	<link rel="stylesheet" href="<?=_UICSS_?>2_modules.css">
 	<link rel="stylesheet" href="<?=_UICSS_?>3_medias.css">
 	<link rel="stylesheet" href="<?=_UICSS_?>4_print.css" media="print">
+	<link rel="stylesheet" href="<?=_UICSS_?>inte.css">
 	
 	<!-- Icons -->
 	<link rel="shortcut icon" href="<?=_UIIMG_?>favicon.ico">

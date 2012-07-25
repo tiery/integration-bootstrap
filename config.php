@@ -5,7 +5,7 @@
  */
  
 // Roots directory
-define('_WEBROOT_', '/');
+define('_WEBROOT_', '/GIT/integration-bootstrap/');
 
 // Site Name
 define('_SITENAME_', 'Site name');
