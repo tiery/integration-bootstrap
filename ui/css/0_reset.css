@@ -85,10 +85,12 @@ textarea{
 body{
 	margin: 0;
 	font: normal 14px/1.4 arial, sans-serif;
-	word-wrap: break-word;
-	-webkit-hyphens: auto;
 	color: #222;
 	background-color: #fff;
+}
+p{
+	word-wrap: break-word;
+	-webkit-hyphens: auto;
 }
 
 /*
