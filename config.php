@@ -24,6 +24,9 @@ define('_UIJS_', _WEBROOT_ . 'ui/js/');
 // Medias directory
 define('_MEDIAS_', _WEBROOT_ . 'medias/');
 
+// Asynchrone ressources directory
+define('_AJAX_', _WEBROOT_ . 'ajax/');
+
 // Third party directory
 define('_THIRD_', _WEBROOT_ . 'third/');
 

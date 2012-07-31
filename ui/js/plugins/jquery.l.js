@@ -32,7 +32,7 @@
 		this.$link = $('a[data-l="target"]:eq(0)', element);
 		
 		// Properties
-		this.target = (typeof this.$element.data('l-blank') !== 'undefined') ? '_blank' : '_self';
+		this.target = (typeof this.$element.data('l-new') !== 'undefined') ? '_blank' : '_self';
 		
 		// Go!
 		this.init();
