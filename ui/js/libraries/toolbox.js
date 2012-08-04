@@ -157,7 +157,7 @@ PX.mobilizr = function() {
 
 // Serve high resolution picture for "Retina" like display
 PX.retinaizr = function() {
-	var sAttr = 'data-@2x',
+	var sAttr = 'data-2x',
 		$img;
 	
 	if (!context.devicePixelRatio || context.devicePixelRatio < 1.5) {
