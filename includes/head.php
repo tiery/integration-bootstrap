@@ -7,6 +7,9 @@
 <head>
 	<!-- Encoding -->
 	<meta charset="utf-8">
+	
+	<!-- Latest IE rendering engine (or Chrome Frame) -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
 	<!-- SEO -->
 	<title><?=$name?> - <?=_SITENAME_?></title>
@@ -52,9 +55,6 @@
 	<!-- Mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta http-equiv="cleartype" content="on">
-	
-	<!-- Latest IE rendering engine (or Chrome Frame) -->
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	
 	<!-- Social -->
 	<meta property="fb:admins" content="">
